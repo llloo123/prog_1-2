@@ -41,3 +41,12 @@ int main()
     return 0;
 }
 ```
+
+## Скриншоты резельтата работы
+<image src = <...>.png alt="блок-схема">
+<image src = <...>.png alt="результат кода">
+
+## Источники 
+(https://programforyou.ru/block-diagram-redactor)
+(https://evil-teacher.on.fleek.co/prog_pm/term1/lab01/)
+(https://doka.guide/tools/markdown/)
