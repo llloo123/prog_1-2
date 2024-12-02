@@ -70,7 +70,7 @@ int main() {
 }
 ```
 ### Результат программы
-<image src = 2024-10-30_23-07-51.png alt="результат программы">
+
 
 #### Источники
 - https://evil-teacher.on.fleek.co/prog_pm/term1/lab03/
