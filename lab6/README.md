@@ -14,3 +14,5 @@ for x in product ('тимофей', repeat = 5):
         count += 1
 print(count)
 ```
+## Результат
+![pics](№1.png)
