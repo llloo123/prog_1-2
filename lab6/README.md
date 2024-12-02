@@ -15,4 +15,4 @@ for x in product ('тимофей', repeat = 5):
 print(count)
 ```
 ## Результат
-![pics](задание_1.png)
+![№1](pics/задание_1.png)
