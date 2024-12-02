@@ -70,7 +70,7 @@ int main() {
 }
 ```
 ### Результат программы
-![результат](pics/IMG_8235.png)
+![результат](pics/IMG_8235.jpeg)
 
 #### Источники
 - https://evil-teacher.on.fleek.co/prog_pm/term1/lab03/
