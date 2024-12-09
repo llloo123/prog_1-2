@@ -51,6 +51,6 @@ print(calc_x(7))
 
 
 #### Источники:
-    https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
-    https://habr.com/ru/articles/337030/
+https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
+https://habr.com/ru/articles/337030/
     
