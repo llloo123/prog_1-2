@@ -51,7 +51,6 @@ print(calc_x(7))
 
 
 #### Источники:
-    Recursion in Programming - Full Course - freeCodeCamp.org
-    🐍 Самоучитель по Python для начинающих. Часть 13: Рекурсивные функции - proglib.io
-    Как работает рекурсия – объяснение в блок-схемах и видео - Хабр
-
+    https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
+    https://habr.com/ru/articles/337030/
+    
