@@ -44,13 +44,14 @@ print(calc_x(3))
 print(calc_x(7))
 ```
 - Вывод программы
+
+  ![№1](pics/result_2(1).png)
+  
 #### Решение без помощи рекурсии 
 ```py
 ```
 - Вывод программы
 
-  
-![№1](pics/result_2(1).png)
 
 #### Источники:
 https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
