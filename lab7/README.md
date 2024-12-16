@@ -18,14 +18,38 @@
 ```
 #### Решение с помощью рекурсии 
 ```py
+def count_recursive(data):
+    count = 0
+    if isinstance(data, list):
+        for item in data:
+            count += count_recursive(item) + 1 
+        return count
+    else:
+        return 1  
+print(count_recursive([]))      
+print(count_recursive([1, 2, 3]))  
+print(count_recursive(["x", "y", ["z"]]))
 ```
 - Вывод программы
   
-#### Решение без помощи рекурсии 
+ ![№1](pics/result_1.1.png)
+#### Решение без помощи рекурсии (итеративный)
 ```py
+def count_iterative(data):
+    count = 0
+    stack = [data] 
+    while stack:
+        current = stack.pop()
+        if isinstance(current, list):
+            stack.extend(current)  
+        else:
+            count += 1
+    return count
+print(count_iterative(["x", "y", ["z"]])) 
+print(count_iterative([1, 2, [3, 4, [5]]])) 
 ```
-- Вывод программы 
-
+- Вывод программы  
+ ![№1](pics/res_1.2.png)
 ### Задача №2
 Функция для расчёта
   
