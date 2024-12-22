@@ -1,4 +1,4 @@
-# Лабораторная работа №2
+# Отчет по лабораторной работе №2
 ## Вариант 1
 ## Задание 
 1. **Написать программу по варианту, используя оператор цикла** `while`
@@ -15,8 +15,8 @@ f(x) =
   \end{cases}
 $$
 ## Ход работы:
-1. **Написал код с циклом `while`**
-```
+1. **Код с циклом `while`**
+```c
 #include <stdio.h>
 #include <math.h>
 int main(){
@@ -39,8 +39,8 @@ int main(){
     return 0;
 }  
 ```
-2. **Написал код с циклом `for`**
-```
+2. **Код с циклом `for`**
+```c
 #include <stdio.h>
 #include <math.h>
 int main(){
@@ -63,31 +63,28 @@ int main(){
         
 }
 ```
-- Установил **gnuplot**, добавил его как среду разроботки **windows** и скачал расширения в **VSC**
-- Создал текстовый файл для сохранения вывода
-- Сделал график с помощью команды ``gnuplot graphs.gnu``
 
 # Скриншоты
 **Цикл `while`**
 
-![alt text](reswhile-1.png)
+![alt text](pics/reswhile-1.png)
 
 **Цикл `for`**
 
-![alt text](resfor-1.png)
+![alt text](pics/resfor-1.png)
 
 # Блок-схемы
 **Цикл `while`**
 
-![alt text](diagramW.png)
+![alt text](pics/diagramW.png)
 
 **Цикл `for`**
 
-![alt text](diagramF.png)
+![alt text](pics/diagramF.png)
 
 ## График фунцкии
 
-![alt text](diagramm.png)
+![alt text](pics/diagramm.png)
 
 ## Справочные материалы
 [Блок-схема](https://programforyou.ru/block-diagram-redactor)
