@@ -64,7 +64,7 @@ int main(){
 }
 ```
 
-# Скриншоты
+# Результаты работы
 **Цикл `while`**
 
 ![alt text](pics/reswhile-1.png)
