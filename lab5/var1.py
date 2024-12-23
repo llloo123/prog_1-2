@@ -1,13 +1,10 @@
-# Повторный импорт после сброса окружения
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Функция
 def f(x):
     return np.cos(x + x**3)
-
-# Генерация данных для графика
-x = np.linspace(0, 2, 500)  # Диапазон x от -2 до 2 с 500 точками
+    
+x = np.linspace(0, 2, 500)  
 y = f(x)
 
 # Построение графика
