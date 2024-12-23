@@ -33,16 +33,15 @@ plt.show()
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Независимая (x) и зависимая (y) переменные
 x = np.linspace(0, 10, 50)
 y = x
-# Построение графика
-plt.title('Линейная зависимость y = x') # заголовок
-plt.xlabel('x') # ось абсцисс
-plt.ylabel('y') # ось ординат
+
+plt.title('Линейная зависимость y = x') 
+plt.xlabel('x')
+plt.ylabel('y') 
 plt.grid()      
-# включение отображение сетки
-plt.plot(x, y)  # построение графика
+
+plt.plot(x, y) 
 plt.show()
 ```
 ![1_3](lessons_1_3/images/1_3.png)
@@ -52,14 +51,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.linspace(0,10,50)
-y1 = x #линейная зависимость
-y2 = [i**2 for i in x] #квадратичная зависимость
+y1 = x 
+y2 = [i**2 for i in x] 
 
-plt.title('Зависимость: y1 = x, y2 = x^2') #заголовок
-plt.xlabel('x') # ось абсцисс
-plt.ylabel('y1, y2') # ось ординат   
-plt.grid() # включение отображение сетки
-plt.plot(x, y1, x, y2) # построение графика
+plt.title('Зависимость: y1 = x, y2 = x^2') 
+plt.xlabel('x') 
+plt.ylabel('y1, y2') 
+plt.grid() 
+plt.plot(x, y1, x, y2) 
 plt.show()
 ```
 ![1_4](lessons_1_3/images/1_4.png)
@@ -70,21 +69,21 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.linspace(0,10,50)
-y1 = x #линейная зависимость
-y2 = [i**2 for i in x] #квадратичная зависимость
+y1 = x 
+y2 = [i**2 for i in x] 
 
-plt.figure(figsize=(9, 9)) #построение графика
+plt.figure(figsize=(9, 9)) 
 plt.subplot(2, 1, 1)
-plt.plot(x, y1) #построение графика            
-plt.title('Зависимости: y1 = x, y2 = x^2') #заголовок
-plt.ylabel('y1', fontsize=14) #ось ординат
-plt.grid(True) #ось ординат    
+plt.plot(x, y1)      
+plt.title('Зависимости: y1 = x, y2 = x^2') 
+plt.ylabel('y1', fontsize=14) 
+plt.grid(True) 
 
 plt.subplot(2, 1, 2)
-plt.plot(x, y2) #gостроение графика         
-plt.xlabel('x', fontsize=14) #ось абсцисс   
-plt.ylabel('y2', fontsize=14) #ось ординат  
-plt.grid(True) #включение отображение сетки                 
+plt.plot(x, y2)   
+plt.xlabel('x', fontsize=14) 
+plt.ylabel('y2', fontsize=14) 
+plt.grid(True)               
 
 plt.show()
 ```
@@ -94,12 +93,12 @@ plt.show()
 ``` python
 import matplotlib.pyplot as plt
 
-fruits = ['apple', 'peach', 'orange', 'bannana', 'melon'] #название фруктов
-counts = [34, 25, 43, 31, 17] #количество фруктов
-plt.bar(fruits, counts) #построение вертикальной столбчатой диаграммы
-plt.title('Fruits!') #заголовок
-plt.xlabel('Fruit') #ось абцисс
-plt.ylabel('Count') #ось ординат
+fruits = ['apple', 'peach', 'orange', 'bannana', 'melon'] 
+counts = [34, 25, 43, 31, 17] 
+plt.bar(fruits, counts) 
+plt.title('Fruits!') 
+plt.xlabel('Fruit') 
+plt.ylabel('Count') 
 plt.show()
 ```
 ![1_6](lessons_1_3/images/1_6.png)
@@ -109,7 +108,7 @@ import matplotlib.pyplot as plt
 
 x = [1, 5, 10, 15, 20]
 y = [1, 7, 3, 5, 11]
-plt.plot(x, y, label = 'steel price') #по оси ординат (ось y), а по оси абсцисс (ось x) будут отложены индексы элементов массива
+plt.plot(x, y, label = 'steel price') 
 plt.xlabel('Day', fontsize=15, color='blue')
 plt.title('График', fontsize=17)
 plt.ylabel('Price', fontsize=15, color='blue')
@@ -138,7 +137,7 @@ y1 = [1, 7, 3, 5, 11]
 y2 = [i*1.2 + 1 for i in y1]
 y3 = [i*1.2 + 1 for i in y2]
 y4 = [i*1.2 + 1 for i in y3]
-# Настройка размеров подложки
+
 plt.figure(figsize=(12, 7))
 plt.subplot(2, 2, 1)
 plt.plot(x, y1, '-')
