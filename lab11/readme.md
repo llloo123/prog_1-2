@@ -171,4 +171,4 @@ root.bind("<Up>", lambda event: tetris.rotate_piece())
 
 root.mainloop()
 ```
-![screenshots](tetris.png)
+![screenshots](tetris.mp4)
