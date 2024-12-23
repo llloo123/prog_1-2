@@ -25,7 +25,6 @@ class RandomGenerator:
     def rand_in_range(self, min_value, max_value):
         return min_value + (self.rand() % (max_value - min_value + 1))
 
-# Пример использования
 rng = RandomGenerator(seed=12345)
 for _ in range(10):
     print(rng.rand_in_range(1, 100))
@@ -39,4 +38,4 @@ for _ in range(10):
 Вызываем метод rand_in_range для генерации случайного числа в указанном диапазоне.
 
 ### Результат работы
-![res](random.png)
+![res](pics/9.png)
